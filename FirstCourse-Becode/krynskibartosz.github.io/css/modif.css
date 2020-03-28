@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.menu{
+    text-align : center;
+    text-decoration: none;
+    background-color: rgba(255, 196, 0, 0.87);
+    display:flex;
+    width:90%;
+}
+
+.menu a{
+    text-decoration: none;
+}
+.menu :hover{
+    color: red;
+}
+
+img{
+    width:10%;
+}
+
+.barre{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    width:100%;
+    
+}
+
+.menu ul li{
+    margin:auto;
+    color: rgba(255, 196, 0, 0.87);
+}

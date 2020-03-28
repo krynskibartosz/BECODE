@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    width: 85%;
+    }
+
+nav .alone{
+    align-self: flex-end;
+}

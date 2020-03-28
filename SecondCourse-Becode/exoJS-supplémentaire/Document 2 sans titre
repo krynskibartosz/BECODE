@@ -1,0 +1,29 @@
+balise = object;
+
+type,id,clas,.. = Propriété
+
+"text" = valeur
+
+accédement au éléments:
+
+par noeud:
+
+let a = doc.body.childNodes[1]
+
+par attr name:
+<form name="myForm" action="">
+  <input type="button" name="myButton" />
+</form>
+
+let btn = document.myForm.myButton;
+
+
+var p = document.getElementById("paragraphe");
+p.toString();
+p.cloneNode(true); // p.cloneNode(false)
+p.appendChild();
+p.removeChild(<node>);
+p.replaceChild(<newNode> <oldNode>);
+
+
+

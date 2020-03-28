@@ -1,0 +1,100 @@
+body{
+    width: 90%;
+    margin: ;
+    font-size: 18px;
+    background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Gradient-Wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    
+}
+header{
+    background: yellow;
+}
+ul :first-child{
+list-style-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/bien.png?token=ANEUXJQGWSUCPYDWZHBRQA25RDEUQ);
+background-position:right;
+padding: 10px;
+margin: 40px;
+}
+
+ul :nth-child(1){
+    list-style-image: url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/mal.png?token=ANEUXJSCBZ5CO2HRSLALTGK5RDFOK);
+    background-position:right;
+
+}
+ul :nth-child(2){ list-style-image:url(https://raw.githubusercontent.com/becodeorg/CRL-Woods-2.15/master/Parcours/01-Prairie/5.HTML-CSS/progressive-enhancement/chat.png?token=ANEUXJVPQHUIQFLOJCRNSKS5RDFUC);
+    background-position:right;
+}
+ul :nth-child(3){}
+
+
+
+
+table{
+    background-color: rgba(102, 98, 98, 0.856);
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+blockquote{
+    font-style: italic;
+}
+
+q{
+    font-style: italic;
+}
+
+caption{
+    width: 50%;
+    margin: ;
+    background-color: rgb(163, 160, 160);
+    border-left: solid 3px rgba(255, 51, 0, 0.568);
+    padding: 80px 30px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2,5;
+    font-size: 16px;
+    color: rgb(7, 4, 37);
+}
+
+a{
+    color: red;
+    text-decoration-color:rgb(255, 251, 0);
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(41, 177, 36);
+}
+
+a:active{
+    color: blue;
+}
+
+.fermier {
+    border-left: solid;
+    border-left-color: green;
+}
+
+.villageois {
+    border-left: solid;
+    border-left-color: red;
+}
+
+.mal{
+    text-transform: uppercase;
+    color: red;
+}
+
+.Bien{
+    text-transform: uppercase;
+    color: green;
+}

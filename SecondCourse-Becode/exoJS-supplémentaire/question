@@ -1,0 +1,6 @@
+Comme dit auparavant vous pouvez mettre à jour la valeur d'une variable autant de fois que vous le voulez. Ça s'appelle l'assignation, et ça ressemble beaucoup à l'initialisation. Vous utilisez encore le signe égal, mais on n'a plus besoin du mot­clé var parce que on a déjà déclaré la variable.
+
+//! assignation dans les exercices
+
+
+
